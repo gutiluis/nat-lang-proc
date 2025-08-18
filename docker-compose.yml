@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  nlp-app:
+    build: .
+    container_name: nlp_app_container
+    tty: true
+    stdin_open: true
