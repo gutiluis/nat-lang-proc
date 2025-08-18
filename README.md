@@ -1,3 +1,5 @@
+Get the grammar, parts of speech, and split into words with a different input sentence everytime.
+
 some grammar:
 
 - NNP -> proper noun
