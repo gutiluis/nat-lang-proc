@@ -1,6 +1,6 @@
-#!/bin/bash
+#!/bin/python
 
-# natural language processing
+# natural language processing toolkit
 
 import nltk 
 
