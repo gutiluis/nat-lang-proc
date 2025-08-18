@@ -1,4 +1,4 @@
-Get the grammar, parts of speech, and split into words with a different input sentence everytime.
+Get the grammar, parts of speech, and split into words from a different input sentence everytime.
 
 some grammar:
 - NNP -> proper noun
@@ -8,7 +8,18 @@ some grammar:
 
 
 
-# how to run docker
+
+
+
+# build image
 docker-compose build
 # run interactively the input inside the unix terminal
 docker-compose run -rm nlp-app
+
+
+# run it with python
+python3 -m venv .venv
+source .venv/bin/activate
+pip install requirements.txt
+chmod +x nlp.py
+python3 nlp.py
