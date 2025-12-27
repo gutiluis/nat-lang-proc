@@ -23,11 +23,11 @@ some grammar:
 ------
 
 # run it with python
-python3 -m venv .venv
-source .venv/bin/activate
-pip install requirements.txt
-chmod +x nlp.py
-python3 nlp.py
+- python3 -m venv .venv
+- source .venv/bin/activate
+- pip install -r requirements.txt
+- chmod +x nlp.py
+- python3 nlp.py
 
 -----
 
