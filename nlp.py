@@ -1,6 +1,10 @@
-#!/bin/python
+#!/usr/bin/env python
 
-# natural language processing toolkit
+
+# file: nlp.py
+# descr: natural language processing toolkit
+
+
 
 import nltk 
 
