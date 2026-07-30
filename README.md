@@ -5,6 +5,12 @@ docker-compose build
 # run interactively the input inside the unix terminal
 docker-compose run -rm nlp-app
 
+# bash it with python
+- python3 -m venv .venv
+- source .venv/bin/activate
+- pip install -r requirements.txt
+- chmod +x nlp.py
+- python3 nlp.py
 
 ## Features:
 
@@ -16,26 +22,19 @@ some grammar:
 - PRP -> pronoun
 - RBR -> adverb comparative
 
-------
+-----
 
 ###
 
-------
-
-# run it with python
-python3 -m venv .venv
-source .venv/bin/activate
-pip install requirements.txt
-chmod +x nlp.py
-python3 nlp.py
-
------
-
-## Technologies Used
+## Technologies Used:
 
 - Python
 
 ------
+
+## What I Learned:
+
+-----
 
 ##
 
